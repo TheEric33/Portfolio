@@ -1,0 +1,16 @@
+html {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div {
+
+    border: solid 1px;
+    width: 20%;
+    height: 150px;
+    padding: 2%;
+    border-radius: 3%;
+    padding-top: 3%;
+
+}

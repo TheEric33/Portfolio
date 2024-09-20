@@ -1,0 +1,24 @@
+#form {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#cos {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+section {
+
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: yellow;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding: 3%;
+
+}

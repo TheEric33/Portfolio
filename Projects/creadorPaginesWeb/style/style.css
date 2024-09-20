@@ -1,0 +1,43 @@
+html {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #12c1c1;
+    text-align: center;
+
+}
+
+#text {
+
+    width: 40%;
+    border: solid 1px;
+    border-radius: 3px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+
+div {
+
+    width: 40%;
+    border: solid 1px;
+    border-radius: 3px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+img {
+
+    border-radius: 2px;
+
+}
+
+a {
+
+    color: #000;
+    text-decoration: none;
+
+}

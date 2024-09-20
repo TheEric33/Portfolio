@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina estil 1</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div id="form">
+
+        <label>Títol de la pàgina: </label>
+        <input type="text" id="tpagina"/>
+        <br><br>
+        <label>Titular: </label>
+        <input type="text" id="ftitol" />
+        <label>Subtítol: </label>
+        <input type="text" id="fsubtitol" />
+        <br><br>
+        <label>Semitítol 1: </label>
+        <input type="text" id="fsemi1">
+        <label>Paràgraf 1: </label>
+        <textarea rows="4" cols="20" id="fparagraf1"></textarea>
+        <br><br>
+        <label>Semitítol 2: </label>
+        <input type="text" id="fsemi2">
+        <label>Paràgraf 2: </label>
+        <textarea rows="4" cols="20" id="fparagraf2"></textarea>
+        <br><br>
+        <label>Semitítol 3: </label>
+        <input type="text" id="fsemi3">
+        <label>Paràgraf 3: </label>
+        <textarea rows="4" cols="20" id="fparagraf3"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Canvia" onclick="changeText()" />
+        <input type="submit" value="Guarda" onclick="saveFile()" />
+
+    </div>
+    <div id="cos">
+
+        <h1 id="titol">Titular</h1>
+        
+        <h2 id="subtitol">subtitol</h2>
+        
+
+        <section id="text">
+
+            <section id="p1">
+
+                <h3 id="semi1">Semitítol 1</h3>
+                <p id="paragraf1">Paràgraf 1</p>
+
+            </section>
+            <section id="p2">
+
+                <h3 id="semi2">Semitítol 2</h3>
+                <p id="paragraf2">Paràgraf 2</p>
+
+            </section>
+            <section id="p3">
+
+                <h3 id="semi3">Semitítol 3</h3>
+                <p id="paragraf3">Paràgraf 3</p>
+
+            </section>
+
+        </section>
+        
+
+    </div>
+
+
+    <script src="./script/index.js"></script>
+</body>
+</html>

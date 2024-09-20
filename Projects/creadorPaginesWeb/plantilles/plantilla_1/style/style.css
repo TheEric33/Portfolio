@@ -1,0 +1,55 @@
+html {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+input {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#form {
+
+    text-align: left;
+
+}
+
+#cos {
+
+    width: 100%;
+    
+    
+    
+
+}
+
+#text {
+
+    display: flex;
+    position: relative;
+
+}
+
+#p1 {
+
+    justify-content: left;
+    width: 30%;
+
+}
+
+#p2 {
+
+    justify-content: center;
+    width: 30%;
+
+}
+
+#p3 {
+
+    justify-content: right;
+    width: 30%;
+
+}

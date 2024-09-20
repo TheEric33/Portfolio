@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Coin Value</title>
+</head>
+<body>
+
+  <h1>Coin Value</h1>
+
+  <h2>Dollar to Euro</h2>
+
+  <div id="data"></div>
+
+  <h2> Euro to Dollar</h2>
+
+  <div id="data2"></div> 
+    
+    <script>
+
+        var url = "https://economia.awesomeapi.com.br/json/daily/USD-EUR/1";
+
+        fetch(url)
+            .then( response => response.json() )
+            .then( data => mostrarData(data) )
+            .catch( error => console.log(error) )
+
+            const mostrarData = (data) => {
+                console.log(data);
+
+                var eur = data[0].bid;
+                var change = 1 * eur;
+                console.log(change);
+
+                let body = "";
+
+                
+
+                document.getElementById('data').innerHTML = "1$ = " + eur + "€" + "<br> 100$ = " + (eur * 100) + "€" + "<br> 1000$ = " + (eur * 1000) + "€" + "<br> 10000$ = " + (eur * 10000) + "€" + "<br> 100000$ = " + (eur * 100000) + "€" + "<br> 1000000$ = " + (eur * 1000000) + "€" + "<br> 10000000$ = " + (eur * 10000000) + "€";
+                
+
+                 
+                
+            }
+
+            var url2 = "https://economia.awesomeapi.com.br/json/daily/EUR-USD/1";
+
+            fetch(url2)
+            .then( response => response.json())
+            .then( data => mostarData2(data))
+            .catch( error => console.log(error))
+
+            const mostarData2 = (data) => {
+
+              console.log(data);
+
+              var doll = data[0].bid;
+              var change = 1 * doll;
+              console.log(change);
+
+              let body = "";
+
+              document.getElementById('data2').innerHTML = "1€ = " + doll + "$" + "<br> 100€ = " + (doll * 100) + "$" + "<br> 1000€ = " + (doll * 1000) + "$" + "<br> 10000€ = " + (doll * 10000) + "$" + "<br> 100000€ = " + (doll * 100000) + "$" + "<br> 1000000€ = " + (doll * 1000000) + "$" + "<br> 10000000€ = " + (doll * 10000000) + "$";
+
+            }
+
+    </script>
+
+</body>
+</html>

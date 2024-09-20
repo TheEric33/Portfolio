@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina estil 4</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+
+    <div id="form">
+
+        <label>Títol de la pàgina: </label>
+        <input type="text" id="tpagina" />
+        <br><br>
+        <label>Títol: </label>
+        <input type="text" id="ftitol" />
+        <br><br>
+        <label>Paràgraf 1: </label>
+        <textarea rows="4" cols="20" id="fparagraf1"></textarea>
+        <br><br>
+        <label>Paràgraf 2: </label>
+        <textarea rows="4" cols="20" id="fparagraf2"></textarea>
+        <br><br>
+        <input type="submit" value="Canvia" onclick="changeText()" />
+        <input type="submit" value="Guarda" onclick="saveFile()" />
+ 
+    </div>
+    <div id="cos">
+
+        <section>
+
+            <h1 id="titol">Títol</h1>
+            <p id="paragraf1">Paràgraf 1</p>
+            <p id="paragraf2">Paràgraf 2</p>
+
+        </section>
+        
+
+    </div>
+
+    <script src="./script/index.js"></script>
+    
+</body>
+</html>
