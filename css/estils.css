@@ -120,6 +120,12 @@ a:hover{
 
 }
 
+#img6{
+
+    display: none;
+
+}
+
 #p1{
 
     display: inline;
@@ -145,6 +151,12 @@ a:hover{
 }
 
 #p5{
+
+    display: none;
+
+}
+
+#p6{
 
     display: none;
 
