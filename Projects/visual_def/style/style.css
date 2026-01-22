@@ -1,0 +1,516 @@
+/*Afecta a toda la página*/
+* {
+  
+  color: #fff;  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+	position: relative;
+	background-color: #143185;
+
+}
+
+/*Estilos para los párrafos y títulos*/
+
+p {
+  
+  font-family: "montserrat", serif;
+  padding: 1%;
+  font-size: 20px;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  
+  font-family: Impact;
+  
+}
+
+h1 {
+
+  font-size: 40px;
+  padding: 1%;
+
+}
+
+h2 {
+
+  font-size: 32px;
+  padding: 0.5%;
+
+
+}
+
+h3 {
+
+  font-size: 25px;
+  padding: 0.5%;
+
+}
+
+h4 {
+
+  font-size: 22px;
+  padding: 0.5%;
+
+}
+
+
+
+/*Estilos para el header, el footer y el nav*/
+
+header {
+  
+  height: 150px;
+  width: 100%;
+  background-color: #008600;
+  text-align: center;
+  border: 0;
+  display: flex;
+  justify-content: left;
+  gap: 25px;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+header > img {
+
+  
+  width: 8%;
+  height: auto;
+
+}
+
+footer{
+
+  height: 280px;
+  width: 100%;
+  background-color: #008600;
+  text-align: center;
+  border: 0;
+  padding: 40px;
+  justify-content: space-between;
+  display: flex;
+  align-items:initial;
+  margin-bottom: 0;
+
+}
+
+
+footer > div > img {
+
+  
+  height: 100px;
+  width: auto;
+
+}
+
+.footerleft{
+
+  width: 35%;
+  
+
+}
+
+.footerrigth{
+
+  width: 50%;
+  
+
+}
+
+nav {
+
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.link {
+
+  width: 25%;
+  border-right: 3px #143185 solid;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.link > a {
+
+  color: #143185;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+footer > .link > a {
+
+  color: #fff;
+
+}
+
+footer > .link > a:hover {
+
+  color: #143185;
+  font-size: 22px;
+
+}
+
+ul {
+
+  list-style: none;
+  padding: 1%;
+
+}
+
+li {
+
+  margin-bottom: 1.2%;
+  font-family: "montserrat", serif;
+  font-size: 20px;
+  padding: 1%;
+
+}
+
+li > a:hover {
+
+  color: #143185;
+  font-size: 22px;
+
+}
+
+a {
+
+  font-family: "montserrat", serif;
+  font-size: 20px;
+  padding: 1%;
+  padding-bottom: 0.5%;
+ 
+}
+
+a:hover{
+
+  color: #008600;
+  font-size: 23px;
+
+}
+
+a > img {
+
+  width: 25px;
+  height: auto;
+  border-radius: 0;
+  padding-right: 10px;
+
+}
+
+#right {
+
+  border: hidden;
+
+}
+
+/*Estilos para los textos*/
+
+section {
+
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  display: flex;
+  gap: 3%
+
+}
+
+
+.text{
+
+  width: 75%;
+
+}
+
+body > .text {
+
+  padding-left: 3%;
+
+}
+
+/*Estilos para las imágenes*/
+
+img {
+
+  border-radius: 1ch;
+  width: 100%;
+
+}
+
+
+
+.image{
+
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+}
+
+.image > img {
+
+  width: 450px;
+  height: auto;
+  
+}
+
+.image > p {
+
+  font-size: medium;
+
+}
+
+
+
+.rectangle {
+
+  width: 40%;
+  padding: 2%;
+  
+
+}
+
+#tgt {
+
+  width: 80%;
+  background-color: #fff;
+  border-radius: 1ch;
+  margin-left: 25%;
+
+}
+
+#tgt > img {
+
+  width: 49.6%;
+  height: auto;
+  justify-content: center;
+
+}
+
+
+.head{
+
+  height: 150px;
+  width: auto;
+
+}
+
+.moodboard{
+
+  display: flex;
+  width: 80%;
+  margin-left: 20%;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+
+.textright{
+
+  width: 100%;
+  height: 350px;
+  padding-left: 2%;
+
+}
+
+
+
+#mood {
+
+  
+  height: auto;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+
+/*Estilos para las tablas*/
+
+table, td, tr, th {
+
+  border: solid;
+  border-collapse: collapse;
+  padding: 1%;
+  font-size: 20px;
+  
+
+}
+
+table{
+
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-family: "montserrat", serif;
+  margin-left: 6%;
+  margin-top: 0.5%;
+
+}
+
+td > img {
+
+  width: 50px;
+  height: auto;
+
+}
+
+.mgc {
+
+  height: 70px;
+  width: auto;
+
+}
+
+.table {
+
+  width: 90%;
+
+}
+
+#impact {
+
+  font-family: Impact;
+
+}
+
+#ultra {
+
+  font-family: "Ultra", serif;
+  font-style: normal;
+
+}
+
+/* Estilos para la targeta/card*/
+
+.cards{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  
+  width: 23%;
+  height: 85vh;
+  background-color: #008600;
+  border-radius: 1ch;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.5%;
+  justify-content: center;
+  box-shadow: 5px 5px #000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.card:hover{
+
+  border: solid 10px #fff;
+
+}
+
+.cardimage{
+
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  align-items: center;
+
+}
+
+
+.cardimage > img {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  padding-bottom: 20px ;
+
+}
+
+.graycard{
+
+    width: 30%;
+    height: 35vh;
+    background-color: #fff;
+    border-radius: 1ch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5%;
+    box-shadow: 5px 5px #000;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    align-items: center;
+
+}
+
+.graycard:hover{
+
+  border: solid 10px #000;
+  scale: 1.1;
+  margin-top: 1%;
+
+}
+
+.whitecard {
+
+    width: 30%;
+    height: 35vh;
+    background-color: #000;
+    border-radius: 1ch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5%;
+    box-shadow: 5px 5px #fff;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    align-items: center;
+
+}
+
+.whitecard:hover{
+
+  border: solid 10px #fff;
+  scale: 1.1;
+  margin-top: 1%;
+  
+
+}
+
+.cardimage img:hover {
+
+  scale: 1.1;
+
+}
+
+
+
